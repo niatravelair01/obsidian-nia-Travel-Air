@@ -1,0 +1,574 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* NIA MicroSaaS Design System - JARVIS Inspired Dark Premium */
+
+@layer base {
+  :root {
+    /* Core Dark Theme - Black as absolute base */
+    --background: 0 0% 4%;
+    --foreground: 0 0% 98%;
+
+    /* Cards and elevated surfaces */
+    --card: 0 0% 6%;
+    --card-foreground: 0 0% 98%;
+
+    /* Popover and dropdowns */
+    --popover: 0 0% 6%;
+    --popover-foreground: 0 0% 98%;
+
+    /* Primary - White as main highlight */
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 4%;
+
+    /* Secondary - Subtle gray */
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 0 0% 85%;
+
+    /* Muted elements */
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 55%;
+
+    /* Accent - White for functional elements */
+    --accent: 0 0% 85%;
+    --accent-foreground: 0 0% 4%;
+
+    /* Destructive */
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 98%;
+
+    /* Borders and inputs */
+    --border: 0 0% 15%;
+    --input: 0 0% 15%;
+    --ring: 0 0% 70%;
+
+    --radius: 0.5rem;
+
+    /* Sidebar */
+    --sidebar-background: 0 0% 5%;
+    --sidebar-foreground: 0 0% 85%;
+    --sidebar-primary: 0 0% 98%;
+    --sidebar-primary-foreground: 0 0% 4%;
+    --sidebar-accent: 0 0% 12%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 0 0% 12%;
+    --sidebar-ring: 0 0% 70%;
+
+    /* Custom NIA tokens */
+    --nia-glow: 0 0% 80%;
+    --nia-glow-subtle: 0 0% 80% / 0.15;
+    --nia-pulse: 0 0% 90%;
+    --surface-elevated: 0 0% 8%;
+    --surface-hover: 0 0% 10%;
+    --text-primary: 0 0% 98%;
+    --text-secondary: 0 0% 65%;
+    --text-tertiary: 0 0% 45%;
+    --border-subtle: 0 0% 12%;
+    --border-glow: 0 0% 80% / 0.3;
+
+    /* Status tokens - semantic colors */
+    --status-success: 142 71% 45%;
+    --status-success-foreground: 0 0% 100%;
+    --status-warning: 38 92% 50%;
+    --status-warning-foreground: 0 0% 9%;
+    --status-info: 217 91% 60%;
+    --status-info-foreground: 0 0% 100%;
+    --status-listening: 142 71% 45%;
+    --status-notification: 0 72% 51%;
+  }
+
+  .light {
+    /* Light Mode - Clean professional look */
+    --background: 0 0% 98%;
+    --foreground: 0 0% 9%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 9%;
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 94%;
+    --secondary-foreground: 0 0% 20%;
+    --muted: 0 0% 94%;
+    --muted-foreground: 0 0% 40%;
+    --accent: 0 0% 20%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 88%;
+    --input: 0 0% 88%;
+    --ring: 0 0% 40%;
+
+    /* Sidebar Light */
+    --sidebar-background: 0 0% 96%;
+    --sidebar-foreground: 0 0% 20%;
+    --sidebar-primary: 0 0% 9%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 0 0% 90%;
+    --sidebar-accent-foreground: 0 0% 9%;
+    --sidebar-border: 0 0% 88%;
+    --sidebar-ring: 0 0% 40%;
+
+    /* Custom NIA tokens Light */
+    --nia-glow: 0 0% 30%;
+    --nia-glow-subtle: 0 0% 30% / 0.1;
+    --nia-pulse: 0 0% 20%;
+    --surface-elevated: 0 0% 100%;
+    --surface-hover: 0 0% 96%;
+    --text-primary: 0 0% 9%;
+    --text-secondary: 0 0% 40%;
+    --text-tertiary: 0 0% 55%;
+    --border-subtle: 0 0% 88%;
+    --border-glow: 0 0% 30% / 0.2;
+
+    /* Status tokens Light - semantic colors */
+    --status-success: 142 71% 35%;
+    --status-success-foreground: 0 0% 100%;
+    --status-warning: 38 92% 45%;
+    --status-warning-foreground: 0 0% 9%;
+    --status-info: 217 91% 50%;
+    --status-info-foreground: 0 0% 100%;
+    --status-listening: 142 71% 35%;
+    --status-notification: 0 72% 51%;
+  }
+
+  .dark {
+    /* Same as root - dark mode is default */
+    --background: 0 0% 4%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 6%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 6%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 4%;
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 0 0% 85%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 55%;
+    --accent: 0 0% 85%;
+    --accent-foreground: 0 0% 4%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 15%;
+    --input: 0 0% 15%;
+    --ring: 0 0% 70%;
+
+    /* Sidebar Dark */
+    --sidebar-background: 0 0% 5%;
+    --sidebar-foreground: 0 0% 85%;
+    --sidebar-primary: 0 0% 98%;
+    --sidebar-primary-foreground: 0 0% 4%;
+    --sidebar-accent: 0 0% 12%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 0 0% 12%;
+    --sidebar-ring: 0 0% 70%;
+
+    /* Custom NIA tokens Dark */
+    --nia-glow: 0 0% 80%;
+    --nia-glow-subtle: 0 0% 80% / 0.15;
+    --nia-pulse: 0 0% 90%;
+    --surface-elevated: 0 0% 8%;
+    --surface-hover: 0 0% 10%;
+    --text-primary: 0 0% 98%;
+    --text-secondary: 0 0% 65%;
+    --text-tertiary: 0 0% 45%;
+    --border-subtle: 0 0% 12%;
+    --border-glow: 0 0% 80% / 0.3;
+
+    /* Status tokens Dark - semantic colors */
+    --status-success: 142 71% 45%;
+    --status-success-foreground: 0 0% 100%;
+    --status-warning: 38 92% 50%;
+    --status-warning-foreground: 0 0% 9%;
+    --status-info: 217 91% 60%;
+    --status-info-foreground: 0 0% 100%;
+    --status-listening: 142 71% 45%;
+    --status-notification: 0 72% 51%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+    font-feature-settings: "cv11", "ss01";
+  }
+}
+
+@layer utilities {
+  /* NIA Glow Effects */
+  .nia-glow {
+    box-shadow: 0 0 20px hsl(var(--nia-glow-subtle)),
+                0 0 40px hsl(var(--nia-glow-subtle));
+  }
+
+  .nia-glow-strong {
+    box-shadow: 0 0 30px hsl(var(--nia-glow) / 0.3),
+                0 0 60px hsl(var(--nia-glow) / 0.2);
+  }
+
+  .nia-border-glow {
+    border: 1px solid hsl(var(--border-glow));
+    box-shadow: 0 0 15px hsl(var(--nia-glow-subtle));
+  }
+
+  /* Text gradients */
+  .text-gradient-nia {
+    background: linear-gradient(135deg, hsl(var(--foreground)) 0%, hsl(var(--muted-foreground)) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Surface styles */
+  .surface-card {
+    background: hsl(var(--card));
+    border: 1px solid hsl(var(--border-subtle));
+  }
+
+  .dark .surface-card {
+    background: linear-gradient(135deg, hsl(var(--card)) 0%, hsl(0 0% 5%) 100%);
+  }
+
+  .surface-elevated {
+    background: hsl(var(--surface-elevated));
+    border: 1px solid hsl(var(--border-subtle));
+  }
+
+  /* =====================================================
+     NIA ANIMATIONS - Premium AI Presence
+     Inspired by Jarvis / Apple Intelligence
+     ===================================================== */
+
+  /* === IDLE STATE ANIMATIONS === */
+  
+  /* Subtle breathing for idle state - very gentle */
+  @keyframes nia-idle-breathe {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.015);
+    }
+  }
+
+  /* Idle logo - minimal movement */
+  @keyframes nia-logo-idle {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.95;
+    }
+  }
+
+  /* === ACTIVE STATE ANIMATIONS (Listening/Speaking) === */
+  
+  /* Listening pulse - slightly more pronounced */
+  @keyframes nia-listening-pulse {
+    0%, 100% {
+      transform: scale(1);
+      box-shadow: 0 0 30px hsl(var(--nia-glow) / 0.15);
+    }
+    50% {
+      transform: scale(1.04);
+      box-shadow: 0 0 50px hsl(var(--nia-glow) / 0.25);
+    }
+  }
+
+  /* Speaking pulse - rhythmic */
+  @keyframes nia-speaking-pulse {
+    0%, 100% {
+      transform: scale(1);
+      box-shadow: 0 0 35px hsl(var(--nia-glow) / 0.18);
+    }
+    25% {
+      transform: scale(1.05);
+      box-shadow: 0 0 55px hsl(var(--nia-glow) / 0.28);
+    }
+    50% {
+      transform: scale(1.02);
+      box-shadow: 0 0 40px hsl(var(--nia-glow) / 0.2);
+    }
+    75% {
+      transform: scale(1.06);
+      box-shadow: 0 0 60px hsl(var(--nia-glow) / 0.3);
+    }
+  }
+
+  /* Active logo animation */
+  @keyframes nia-logo-active {
+    0%, 100% {
+      transform: scale(1);
+      filter: brightness(1);
+    }
+    50% {
+      transform: scale(1.03);
+      filter: brightness(1.08);
+    }
+  }
+
+  /* Speaking logo - more dynamic */
+  @keyframes nia-logo-speaking {
+    0%, 100% {
+      transform: scale(1);
+      filter: brightness(1);
+    }
+    33% {
+      transform: scale(1.04);
+      filter: brightness(1.1);
+    }
+    66% {
+      transform: scale(1.02);
+      filter: brightness(1.05);
+    }
+  }
+
+  /* === RING ANIMATIONS === */
+  
+  /* Ring pulse for active states */
+  @keyframes nia-ring-pulse {
+    0%, 100% {
+      transform: scale(1);
+      opacity: 0.8;
+    }
+    50% {
+      transform: scale(1.03);
+      opacity: 1;
+    }
+  }
+
+  /* Reverse ring pulse for depth */
+  @keyframes nia-ring-pulse-reverse {
+    0%, 100% {
+      transform: scale(1.02);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1);
+      opacity: 0.7;
+    }
+  }
+
+  /* Expanding ring - slow outward movement */
+  @keyframes nia-ring-expand {
+    0% {
+      transform: scale(1);
+      opacity: 0.3;
+    }
+    100% {
+      transform: scale(1.15);
+      opacity: 0;
+    }
+  }
+
+  /* Ambient ring glow */
+  @keyframes nia-ring-glow {
+    0%, 100% {
+      opacity: 0.3;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.5;
+      transform: scale(1.02);
+    }
+  }
+
+  /* === GENERAL PURPOSE ANIMATIONS === */
+
+  /* Soft glow pulse for containers */
+  @keyframes nia-glow-pulse {
+    0%, 100% {
+      box-shadow: 0 0 15px hsl(var(--nia-glow) / 0.1);
+    }
+    50% {
+      box-shadow: 0 0 25px hsl(var(--nia-glow) / 0.18);
+    }
+  }
+
+  /* Premium presence animation */
+  @keyframes nia-presence {
+    0%, 100% {
+      transform: scale(1);
+      filter: brightness(1);
+    }
+    50% {
+      transform: scale(1.02);
+      filter: brightness(1.03);
+    }
+  }
+
+  /* Micro rotation for processing */
+  @keyframes nia-micro-rotate {
+    0%, 100% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(0.5deg);
+    }
+    75% {
+      transform: rotate(-0.5deg);
+    }
+  }
+
+  /* Response pulse feedback */
+  @keyframes nia-response-pulse {
+    0% {
+      transform: scale(1);
+    }
+    30% {
+      transform: scale(1.06);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  /* Processing rotation */
+  @keyframes nia-processing {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  /* Standard pulse */
+  @keyframes nia-pulse {
+    0%, 100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.85;
+      transform: scale(1.03);
+    }
+  }
+
+  /* Breathing animation */
+  @keyframes nia-breathe {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.02);
+    }
+  }
+
+  /* Fade in up */
+  @keyframes fade-in-up {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* === ANIMATION UTILITY CLASSES === */
+
+  /* Idle */
+  .animate-nia-idle-breathe {
+    animation: nia-idle-breathe 4s ease-in-out infinite;
+  }
+
+  .animate-nia-logo-idle {
+    animation: nia-logo-idle 5s ease-in-out infinite;
+  }
+
+  /* Active states */
+  .animate-nia-listening-pulse {
+    animation: nia-listening-pulse 2s ease-in-out infinite;
+  }
+
+  .animate-nia-speaking-pulse {
+    animation: nia-speaking-pulse 1.5s ease-in-out infinite;
+  }
+
+  .animate-nia-logo-active {
+    animation: nia-logo-active 2s ease-in-out infinite;
+  }
+
+  .animate-nia-logo-speaking {
+    animation: nia-logo-speaking 1.2s ease-in-out infinite;
+  }
+
+  /* Rings */
+  .animate-nia-ring-pulse {
+    animation: nia-ring-pulse 3s ease-in-out infinite;
+  }
+
+  .animate-nia-ring-pulse-reverse {
+    animation: nia-ring-pulse-reverse 3s ease-in-out infinite;
+  }
+
+  .animate-nia-ring-expand {
+    animation: nia-ring-expand 3s ease-out infinite;
+  }
+
+  .animate-nia-ring-glow {
+    animation: nia-ring-glow 4s ease-in-out infinite;
+  }
+
+  /* General */
+  .animate-nia-glow-pulse {
+    animation: nia-glow-pulse 4s ease-in-out infinite;
+  }
+
+  .animate-nia-presence {
+    animation: nia-presence 4s ease-in-out infinite;
+  }
+
+  .animate-nia-micro-rotate {
+    animation: nia-micro-rotate 3s ease-in-out infinite;
+  }
+
+  .animate-nia-response-pulse {
+    animation: nia-response-pulse 0.6s ease-out;
+  }
+
+  .animate-nia-processing {
+    animation: nia-processing 2s linear infinite;
+  }
+
+  .animate-nia-pulse {
+    animation: nia-pulse 3s ease-in-out infinite;
+  }
+
+  .animate-nia-breathe {
+    animation: nia-breathe 4s ease-in-out infinite;
+  }
+
+  .animate-fade-in-up {
+    animation: fade-in-up 0.4s ease-out forwards;
+  }
+
+  /* Scrollbar styling */
+  .scrollbar-nia::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .scrollbar-nia::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .scrollbar-nia::-webkit-scrollbar-thumb {
+    background: hsl(var(--muted));
+    border-radius: 3px;
+  }
+
+  .scrollbar-nia::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--muted-foreground));
+  }
+}

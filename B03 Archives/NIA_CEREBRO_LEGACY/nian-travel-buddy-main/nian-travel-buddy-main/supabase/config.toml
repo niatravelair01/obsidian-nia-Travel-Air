@@ -1,0 +1,10 @@
+project_id = "acmenyfaylvpohjqvgmh"
+
+[functions.nia-realtime-session]
+verify_jwt = false
+
+[functions.nia-text-chat]
+verify_jwt = false
+
+[functions.nia-create-client]
+verify_jwt = false
