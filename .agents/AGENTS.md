@@ -65,3 +65,15 @@ Sempre que um novo chat de trabalho for iniciado neste workspace:
    - `01_Empresa_e_SaaS/Contexto_Atual_Negocio.md`
 2. **Verificação de Entradas (`00_Entrada/Leo/` e `00_Entrada/`):**
    - Verificar dumps pendentes, processar regras de negócio e propor consolidação atômica.
+
+---
+
+## ⚡ 5. PROTOCOLO DE SINCRONIZAÇÃO AUTOMÁTICA DE GIT
+
+Sempre que o **Léo** criar, editar ou finalizar alterações no Obsidian (`Cerebro_Nia`), a IA executará automaticamente o ciclo de sincronização:
+
+```bash
+git add .
+git commit -m "feat(obsidian): atualizacoes realizadas pelo socio Leo"
+git push origin main
+```
