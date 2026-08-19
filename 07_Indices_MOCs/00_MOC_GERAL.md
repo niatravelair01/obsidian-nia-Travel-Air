@@ -1,4 +1,4 @@
----
+﻿---
 id: "NIA-MOC-000"
 titulo: "Mapa Central do Conhecimento (MOC Geral)"
 tipo: "moc"
@@ -12,7 +12,7 @@ proprietario: "Gabriel"
 ultima_atualizacao: 2026-08-18
 ---
 
-# ⛵ NIA Travelware — Painel Mestre do Conhecimento (MOC Central)
+# ⛵ NIA Travel Air — Painel Mestre do Conhecimento (MOC Central)
 
 > "O usuário não toma decisão sozinho. A NIA é uma camada de proteção de margem, velocidade operacional e inteligência de dados."
 
@@ -34,3 +34,4 @@ ultima_atualizacao: 2026-08-18
 - **[[AGENTS]]** — Regras de operação do agente de IA e trava em duas etapas.
 - **[[Guia_Sincronizacao_Multi_Usuario]]** — Guia para conectar computadores (Gabriel + Sócio + Equipe).
 - **[[Template_Nota_NIA]]** — Template padronizado YAML Schema v2.0.
+

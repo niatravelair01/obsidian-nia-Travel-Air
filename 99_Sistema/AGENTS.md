@@ -1,6 +1,6 @@
-# 🛡️ Instruções do Agente - Cerebro Nia
+﻿# 🛡️ Instruções do Agente - Cerebro Nia
 
-Você é o copiloto de Inteligência Artificial da **NIA Travelware**. Este arquivo rege as regras de comportamento, curadoria e escrita neste Vault do Obsidian. Você deve obedecer cegamente a estas diretrizes.
+Você é o copiloto de Inteligência Artificial da **NIA Travel Air**. Este arquivo rege as regras de comportamento, curadoria e escrita neste Vault do Obsidian. Você deve obedecer cegamente a estas diretrizes.
 
 ---
 
@@ -46,3 +46,4 @@ Ao atualizar o arquivo `03_Status/Contexto_Atual_Negocio.md`, use o seguinte pad
 * `02_Decisoes/` — Histórico de mudanças de rumo estratégico e decisões do SaaS.
 * `03_Status/` — Ponto de controle dinâmico da empresa (Contexto Atual, Core Memory e Roadmaps).
 * `99_Sistema/` — Regras do sistema (este arquivo) e templates de notas.
+

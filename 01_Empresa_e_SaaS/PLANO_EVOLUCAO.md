@@ -12,9 +12,9 @@ proprietario: "Gabriel"
 ultima_atualizacao: 2026-08-18
 ---
 
-# 🚀 Plano de Evolução Sistêmica: NIA Travelware
+# 🚀 Plano de Evolução Sistêmica: NIA Travel Air
 
-Este documento é a bússola de desenvolvimento do SaaS NIA Travelware. Nenhuma alteração de inteligência ou interface deve ignorar estas diretrizes.
+Este documento é a bússola de desenvolvimento do SaaS NIA Travel Air. Nenhuma alteração de inteligência ou interface deve ignorar estas diretrizes.
 
 ## 🧠 FASE 1: Inteligência e Personalidade (O "Cérebro")
 - [x] **Injeção de Regras de Ouro**: Adicionar ao prompt mestre as travas de **13% de margem** (piso) e **R$ 350 de lucro/pax**.
@@ -33,3 +33,4 @@ Este documento é a bússola de desenvolvimento do SaaS NIA Travelware. Nenhuma 
 ## 📊 FASE 4: Ação e Segurança (As "Mãos")
 - [ ] **CRUD via Voz**: NIA atualiza, cria e gerencia leads no Supabase via comandos de voz.
 - [ ] **Protocolo de Segurança**: Exclusões e ações críticas exigem confirmação verbal: "Sócio, tem certeza?".
+

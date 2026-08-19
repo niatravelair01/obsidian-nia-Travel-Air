@@ -1,4 +1,4 @@
----
+﻿---
 id: "NIA-EMP-005"
 titulo: "Roadmap Geral do MVP NIA"
 tipo: "status"
@@ -12,7 +12,7 @@ proprietario: "Gabriel"
 ultima_atualizacao: 2026-08-18
 ---
 
-# 🗺️ Roadmap Geral: MVP NIA Travelware
+# 🗺️ Roadmap Geral: MVP NIA Travel Air
 
 > Sequência obrigatória de desenvolvimento para validação do SaaS e tração comercial.
 
@@ -34,3 +34,4 @@ ultima_atualizacao: 2026-08-18
 - [ ] Trilha de Follow-up Estratégico baseada no CRM.
 - [ ] Dashboard "Boa tarde, Sócio" com insights preditivos.
 - [ ] Validação prática e captação das primeiras 10 agências beta.
+

@@ -1,6 +1,6 @@
 ---
 id: "NIA-EMP-001"
-titulo: "Memória do Projeto: NIA Travelware"
+titulo: "Memória do Projeto: NIA Travel Air"
 tipo: "spec"
 dominio: "empresa"
 status: "oficial"
@@ -13,7 +13,7 @@ proprietario: "Gabriel"
 ultima_atualizacao: 2026-08-18
 ---
 
-# 🧠 Memória do Projeto: NIA Travelware 
+# 🧠 Memória do Projeto: NIA Travel Air 
 
 > **INSTRUÇÃO CRÍTICA PARA A IA:** 
 > Sempre que iniciar um novo chat de trabalho, você (IA) **deve obrigatoriamente** ler esta nota antes de sugerir ou criar qualquer coisa. Este é o Prompt Base que rege todas as regras de negócios da Nia SaaS.
@@ -23,7 +23,7 @@ ultima_atualizacao: 2026-08-18
 ## O PROMPT BASE (ARQUITETURA, ESTRATÉGIA E OPERAÇÃO TOTAL)
 
 **1. IDENTIDADE DA EMPRESA**
-- **Nome:** NIA Travelware (Navio, Iate, Avião)
+- **Nome:** NIA Travel Air (Navio, Iate, Avião)
 - **O que é:** Um sistema operacional inteligente para agências de viagem. NÃO é apenas um CRM. É uma camada de decisão, controle e crescimento.
 - **Função Principal:** Organizar, Decidir, Priorizar, Proteger margem, Aumentar lucro, Reduzir risco.
 

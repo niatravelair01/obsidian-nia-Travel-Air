@@ -1,4 +1,4 @@
----
+﻿---
 id: "NIA-EMP-002"
 titulo: "Contexto Mestre — NIA Guardian Pro"
 tipo: "arquitetura"
@@ -36,7 +36,7 @@ ultima_atualizacao: 2026-08-18
 
 ## 2. IDENTIDADE DO PRODUTO
 
-- **Nome:** NIA Travelware / NIA Guardian Pro
+- **Nome:** NIA Travel Air / NIA Guardian Pro
 - **Significado:** Navio, Iate, Avião
 - **Função:** Sistema operacional inteligente para agências de viagem.
 - **Propósito:** Transformar agências desorganizadas em operações lucrativas, previsíveis e escaláveis.
@@ -106,3 +106,4 @@ ultima_atualizacao: 2026-08-18
 1. Manter integridade no Lovable e repositório GitHub
 2. SaaS multi-tenant — cada agência = dados isolados
 3. Feature só entra se: aumenta lucro, reduz risco ou economiza tempo
+

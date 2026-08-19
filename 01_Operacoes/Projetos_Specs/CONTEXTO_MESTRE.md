@@ -1,4 +1,4 @@
-# 🧠 NIA GUARDIAN PRO — CONTEXTO MESTRE (LEIA PRIMEIRO)
+﻿# 🧠 NIA GUARDIAN PRO — CONTEXTO MESTRE (LEIA PRIMEIRO)
 
 > **REGRA:** Este arquivo deve ser lido NO INÍCIO DE CADA SESSÃO antes de qualquer ação.
 > **Última atualização:** 14/04/2026
@@ -22,7 +22,7 @@
 
 ## 2. IDENTIDADE DO PRODUTO
 
-- **Nome:** NIA Travelware / NIA Guardian Pro
+- **Nome:** NIA Travel Air / NIA Guardian Pro
 - **Significado:** Navio, Iate, Avião
 - **Função:** Sistema operacional inteligente para agências de viagem.
 - **Propósito:** Transformar agências desorganizadas em operações lucrativas, previsíveis e escaláveis.
@@ -110,3 +110,4 @@
 3. Atualizar este arquivo a cada nova decisão
 4. SaaS multi-tenant — cada agência = dados isolados
 5. Feature só entra se: aumenta lucro, reduz risco ou economiza tempo
+

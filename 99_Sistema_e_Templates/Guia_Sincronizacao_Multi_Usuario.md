@@ -1,4 +1,4 @@
----
+﻿---
 id: "NIA-SYS-003"
 titulo: "Guia de Sincronização Multi-Usuário (Gabriel + Sócio + Equipe)"
 tipo: "spec"
@@ -13,7 +13,7 @@ proprietario: "Gabriel"
 ultima_atualizacao: 2026-08-18
 ---
 
-# 🌐 Guia de Sincronização e Operação Multi-Usuário (NIA Travelware)
+# 🌐 Guia de Sincronização e Operação Multi-Usuário (NIA Travel Air)
 
 Este guia orienta como manter o Obsidian e o Antigravity sincronizados entre os fundadores (**Gabriel & Sócio**) e como plugar futuros colaboradores com total segurança.
 
@@ -49,3 +49,4 @@ Este guia orienta como manter o Obsidian e o Antigravity sincronizados entre os 
 - **Divisão por Arquivos ou Cabeçalhos:** Cada fundador edita suas seções ou assina no YAML com seu nome.
 - **Puxar antes de Alterar:** Sempre dar `git pull` antes de começar a sessão de trabalho e `git push` ao terminar.
 - **Futuros Colaboradores:** Funcionários terão acesso apenas de leitura ou permissão de escrita restrita à pasta `00_Entrada/`, garantindo que ninguém desmonte a arquitetura mestre da empresa.
+

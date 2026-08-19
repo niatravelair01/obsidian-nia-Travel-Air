@@ -1,4 +1,4 @@
----
+﻿---
 id: "NIA-EMP-003"
 titulo: "Contexto Atual do Negócio & Sprint Ativa"
 tipo: "status"
@@ -12,7 +12,7 @@ proprietario: "Gabriel"
 ultima_atualizacao: 2026-08-18
 ---
 
-# 🚀 Contexto Atual do Negócio — NIA Travelware
+# 🚀 Contexto Atual do Negócio — NIA Travel Air
 
 > **Data de Atualização:** 2026-08-18
 > **Status do Projeto:** Fase de Consolidação do MVP & Operação Multi-Usuário (Gabriel + Sócio)
@@ -33,3 +33,4 @@ ultima_atualizacao: 2026-08-18
 ## 👥 Estrutura Fundadores
 - **Gabriel:** Estratégia de Produto, Validação na Noma Travel, Arquitetura de Negócio e Prompts.
 - **Sócio:** Co-fundador operacional, retroalimentação de dados, gestão e escala.
+

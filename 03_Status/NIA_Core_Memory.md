@@ -1,8 +1,8 @@
----
+﻿---
 tags: [nia, memoria, prompt, arquitetura, base]
 ---
 
-# 🧠 Memória do Projeto: NIA Travelware 
+# 🧠 Memória do Projeto: NIA Travel Air 
 
 > **INSTRUÇÃO CRÍTICA PARA A IA:** 
 > Sempre que iniciar um novo chat de trabalho, você (IA) **deve obrigatoriamente** ler esta nota antes de sugerir ou criar qualquer coisa. Este é o Prompt Base que rege todas as regras de negócios da Nia SaaS.
@@ -12,7 +12,7 @@ tags: [nia, memoria, prompt, arquitetura, base]
 ## O PROMPT BASE (ARQUITETURA, ESTRATÉGIA E OPERAÇÃO TOTAL)
 
 **1. IDENTIDADE DA EMPRESA**
-- **Nome:** NIA Travelware (Navio, Iate, Avião)
+- **Nome:** NIA Travel Air (Navio, Iate, Avião)
 - **O que é:** Um sistema operacional inteligente para agências de viagem. NÃO é apenas um CRM. É uma camada de decisão, controle e crescimento.
 - **Função Principal:** Organizar, Decidir, Priorizar, Proteger margem, Aumentar lucro, Reduzir risco.
 
@@ -50,3 +50,4 @@ A revolução contra o improviso e a memória humana. A Nia é um Sistema de dec
 - Sempre priorizar margem e caixa.
 - Sempre questionar decisões fracas de design ou lógica.
 - Agir como Sócio Estratégico. Se houver conflito entre "crescimento" e "lucro", escolher sempre o **lucro sustentável**.
+

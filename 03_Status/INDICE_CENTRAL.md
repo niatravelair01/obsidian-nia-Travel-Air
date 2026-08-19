@@ -1,8 +1,8 @@
----
+﻿---
 tags: [nia, indice, saas, b2b]
 ---
 
-# ⛵ NIA Travelware — Área de Comando
+# ⛵ NIA Travel Air — Área de Comando
 
 > "O usuário não toma decisão sozinho. A NIA é uma camada de proteção de margem e clareza de dados." 
 > *Interface inicial para navegação do SaaS B2B.*
@@ -30,3 +30,4 @@ Os agentes de sistema agirão nestes hubs em ordem obrigatória de desenvolvimen
 ---
 
 *(Navegue pelos links acima para documentarmos o Backend e as instruções de cada tela do aplicativo Lovable).*
+
