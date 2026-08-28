@@ -1,4 +1,4 @@
-﻿---
+---
 id: "NIA-ROT-LEO-TMP"
 titulo: "Template de Planejamento DiÃ¡rio â€” LÃ©o"
 tipo: "template"
